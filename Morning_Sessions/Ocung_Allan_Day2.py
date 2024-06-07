@@ -1,37 +1,20 @@
 
-# score = 85
 
-# if score >= 90:
-#     print("Excellent")
+# EXERCISE 1: if... elif statements
 
-# elif score >= 80:
-#     print("Very Good")
+age = int(input("Enter your age: "))
 
-# elif score >= 70:
-#     print("Good")
+if age < 13:
+        print("Your Discount is: Shs1000")
 
-# elif score >= 60:
-#     print("Well Tried")
+elif 13 <= age < 18:
+    print("Your Discount is: Shs500")
 
-# else:
-#    print("You failed")
+elif 18 <= age < 60:
+    print("The price of the movie ticket is: Shs2000")
 
-
-# EXERCISE 1:
-
-# age = int(input("Enter your age: "))
-
-# if age < 13:
-#         print("Your Discount is: Shs1000")
-
-# elif 13 <= age < 18:
-#     print("Your Discount is: Shs500")
-
-# elif 18 <= age < 60:
-#     print("The price of the movie ticket is: Shs2000")
-
-# else:
-#     print("The price of the movie ticket is: Shs5000")
+else:
+    print("The price of the movie ticket is: Shs5000")
 
 
 # LOOPS(for, while)
@@ -71,13 +54,10 @@ for color in color_names:
 
 number = 12345
 
-# Convert the number to a string to manipulate it easily
 number_str = str(number)
 
-# Initialize the reversed number as an empty string
 reversed_number_str = ""
 
-# Get the length of the number string
 length = len(number_str)
 
 # Initialize the index to the last character of the number string
@@ -91,5 +71,4 @@ while index >= 0:
 # Convert the reversed string back to an integer
 reversed_number = int(reversed_number_str)
 
-# Output the reversed number
 print(reversed_number)
