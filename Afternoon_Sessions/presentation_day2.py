@@ -59,14 +59,14 @@ for x in mystr:
 import json
 
 # some JSON:
-x =  '{"name":"Ocung", "age":24, "city":"Soroti"}'
+json_string =  '{"name":"Ocung", "age":24, "city":"Soroti"}'
 
 # print(x["age"])
 
-y = json.loads(x)
+python_obj = json.loads(json_string)
 
 # the result is a Python dictionary:
-print(y["age"])
+print(python_obj["age"])
 
 z = {
   "name": "Allan",
