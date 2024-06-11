@@ -4,7 +4,7 @@
 
 # 1.	Create a list with 5 items (names of people) and write a python program to output the 2nd item.
 
-mylist = ["Moses", "Albert", "Andrew", "Ocung", "Mark", "John"]
+mylist = ["Moses", "Albert", "Andrew", "Ocung", "Mark"]
 
 print(mylist[1])
 
@@ -16,7 +16,7 @@ print(mylist[0])
 
 # 3.	Write a python program to add a sixth item to the list
 
-mylist.insert(5, "Joviah")
+mylist.append("Joviah") # You can also use append()
 
 print(mylist)
 

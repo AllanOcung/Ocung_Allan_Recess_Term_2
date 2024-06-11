@@ -14,7 +14,7 @@ myiter = iter(myset)
 
 print(next(myiter))
 print(next(myiter))
-print(next(myiter))
+# print(next(myiter))
 
 mystr = "Banana"
 
@@ -42,7 +42,7 @@ for x in mystr:
 
 # JSON IN PYTHON
 
-# JSON is a syntax for storing and exchanging data.
+# JSON is a syntax for storing and exchanging data. (JavaScript Object Notation)
 
 # JSON is text, written with JavaScript object notation.
 
@@ -89,14 +89,14 @@ print(w)
 
 # PIP
 
-# PIP is a package manager for Python packages.
-# If you have Python version 3.4 or later, PIP is included by default.
+# Is a package management system used to install and manage software packages written in Python.
+# version 3.4 or later, PIP is included by default.
 
 # What is a Package?
 # A package contains all the files you need for a module.
 # Modules are Python code libraries you can include in your project.
 
-# To check if PIP is installed: py -m pip --version
+# To check if PIP is installed: py -m pip --version on command prompt
 
 # PIP commands
 
@@ -115,6 +115,8 @@ txt = "Modules are Python code libraries you can include in your project"
 
 print(c.hump(txt))
 
-# To list the installed packages:   C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip list
-# C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip show package_name
-# C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>pip uninstall camelcase
+# To list the installed packages: pip list
+# pip show package_name
+# pip uninstall camelcase
+# pip install --upgrade package-name
+# cheking for outdated packages: pip list --outdated
