@@ -15,7 +15,7 @@ NB: You can specify different handlers to different exception types
 3.Else: The code runs if no exception occurs
 NB: If no exception is raised in the try block, it runs
 
-4. Finally: The code runs whether an exception is raised/ccurs or not
+4. Finally: The code runs whether an exception occurs or not
 NB: Used for cleaning up actions
 
 """
@@ -43,14 +43,14 @@ finally:
 
 def string_to_integer():
     try:
-        convert = input("Enter a string you want to convert to an integer")
+        convert = input("Enter a string to convert to an integer")
         converted = int(convert)
     except TypeError:
-        print("Invalid input, input not a string")
+        print("Innput not a string")
     except ValueError:
-        print("String cannot be converted to an integer")
+        print("String can't be converted to an integer")
     else:
-        print(f"converted integer: {converted}")
+        print(f"Converted Integer: {converted}")
     finally:
         print("String converted successfully to an integer")
 
