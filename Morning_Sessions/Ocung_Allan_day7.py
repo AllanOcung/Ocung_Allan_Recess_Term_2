@@ -27,27 +27,28 @@ dog = Dog()
 
 print(f"Dog: {dog.speak()}")
 
-# Example 2: 
 
-# Polymorphism
 
-# class Vehicle:
-#     def sound(self):
-#         return 'wooof'
+# Example 2: Polymorphism
 
-# class Tesla(Vehicle):
-#     def sound(self):
-#         return 'vooommm'
+
+class Vehicle:
+    def sound(self):
+        return 'wooof'
+
+class Tesla(Vehicle):
+    def sound(self):
+        return 'vooommm'
     
-# class Mustang(Vehicle):
-#     def sound(self):
-#         return 'oooommmm'
+class Mustang(Vehicle):
+    def sound(self):
+        return 'oooommmm'
     
-# def make_vehicle_sound(animal):
-#     print(animal.sound())
+def make_vehicle_sound(animal):
+    print(animal.sound())
 
-# make_vehicle_sound(Tesla())
-# make_vehicle_sound(Mustang())
+make_vehicle_sound(Tesla())
+make_vehicle_sound(Mustang())
 
 print()
 print('Exercise 1: Solution')
@@ -165,7 +166,7 @@ print()
 print('Working with text files')
 print()
 
-# Eample 1: On file handling
+# Example 1: On file handling
 
 # Writing to a text file
 
@@ -209,7 +210,7 @@ with open('edith.csv', 'w', newline='') as csv_file:
 
 # Reading from a csv file
 
-with open('edith.csv', 'r') as csv_file:
+with open('edith.csv', 'r') as csv_file:        
     reader = csv.reader(csv_file)
     for row in reader:
         print(row)
@@ -293,6 +294,7 @@ read_xml()
 print()
 print()
 
+
 # Exercise 3: Using abstraction, calculatethe area and parameterof a rectangle
 
 class Rectangle:
@@ -307,10 +309,11 @@ class Rectangle:
         return 2 * (self.width + self.height)
 
 width = 5
-height = 3
+height = 3 
 rectangle = Rectangle(width, height)
 
 print(f"Rectangle width: {rectangle.width}")
 print(f"Rectangle height: {rectangle.height}")
 print(f"Area of the rectangle: {rectangle.area()}")
 print(f"Perimeter of the rectangle: {rectangle.perimeter()}")
+
