@@ -1,0 +1,52 @@
+name,sex,age,living_allowance,course,number_of_siblings,meals_per_day,has_boyfriend_girlfriend,grade,attendance_rate,part-time_job
+Alice Fenton,F,20,300,Computer Science,1,3,Yes,A,95,No
+Bob Smith,M,22,,Mechanical Engineering,2,2,No,B,90,Yes
+Cathy Brown,F,19,400,Mathematics,,3,No,A,98,No
+David Lee,M,21,350,Business Administration,3,2,Yes,B,,Yes
+Emma Jones,F,18,200,Psychology,1,three,No,A,92,No
+Frank Miller,M,,500,Physics,2,4,Yes,C,80,Yes
+Grace Kim,F,20,275,Chemistry,4,3,No,B,88,N/A
+Henry Evans,,21,225,Biology,1,2,Yes,A,93,Yes
+Isla Roberts,F,19,300,History,0,3,No,A,ninety-seven,No
+Jack Wilson,M,22,320,Electrical Engineering,3,3,No,B,89,Yes
+Karen Young,F,,310,Philosophy,2,3,Yes,A,96,No
+Liam Scott,M,21,280,Political Science,1,2,,B,91,Yes
+Mia Martinez,F,18,400,English,,3,Yes,A,99,No
+Nathan King,M,23,230,Economics,2,4,No,C,83,Yes
+Olivia Turner,F,19,350,Art History,one,3,Yes,A,94,No
+Peter Adams,M,20,260,Computer Engineering,3,2,No,B,,Yes
+Quincy Hall,M,22,270,Environmental Science,1,3,Yes,B,86,Yes
+Rachel Clark,F,21,240,Sociology,2,2,No,A,92,No
+Samuel Lewis,M,23,300,Civil Engineering,four,3,No,B,84,Yes
+Tina Baker,F,19,330,Journalism,0,3,Yes,A,,No
+Umar Patel,M,20,250,Information Technology,2,3,No,B,88,Yes
+Victoria Chen,F,22,275,Medical Science,1,,Yes,A,94,No
+William Carter,M,21,325,Law,3,2,No,B,89,Yes
+Xena Jackson,F,19,240,Anthropology,0,3,,A,95,No
+Yusuf Ali,M,20,350,Mechanical Engineering,2,3,Yes,B,87,Yes
+Zara Blake,F,21,310,Political Science,1,2,No,A,93,No
+Adrian Nelson,M,22,280,Economics,3,3,No,B,86,Yes
+Bella Harris,F,19,230,Biology,0,3,Yes,A,97,No
+Chris Wong,M,20,260,Environmental Science,2,2,No,B,90,Yes
+Diana Lopez,F,23,220,History,1,4,No,C,82,Yes
+Evan Davis,M,21,270,Mathematics,3,three,Yes,A,91,No
+Fiona Green,F,20,290,Psychology,2,2,No,A,96,No
+George King,M,22,320,Physics,1,3,Yes,B,88,Yes
+Hannah Clark,F,19,310,Chemistry,,2,No,A,95,No
+Ivan Moore,M,23,250,Computer Science,2,3,No,B,85,Yes
+Julia Robinson,F,21,270,English,1,3,Yes,A,94,No
+Kevin Hill,M,20,300,Business Administration,0,two,No,B,87,Yes
+Linda Adams,F,22,280,Law,3,3,Yes,A,92,No
+Mark Thompson,M,19,260,Electrical Engineering,2,2,No,B,90,Yes
+Nina Johnson,F,21,350,Philosophy,1,3,Yes,A,97,No
+Oscar White,M,23,240,Political Science,3,4,No,C,81,Yes
+Paula Scott,F,20,220,Journalism,0,3,No,A,93,No
+Ryan Harris,M,19,275,Information Technology,1,2,Yes,B,86,Yes
+Sophie Martinez,F,21,260,Sociology,2,3,No,A,95,No
+Travis Baker,M,22,300,Mechanical Engineering,4,3,Yes,B,88,Yes
+Una Smith,F,20,240,Art History,1,2,No,A,96,No
+Victor Brown,M,23,250,Biology,three,3,Yes,C,83,Yes
+Wendy Lewis,F,21,310,Medical Science,2,3,No,A,94,No
+Xander Patel,M,19,320,Economics,1,2,No,B,87,Yes
+Yvonne Kim,F,20,280,Chemistry,4,3,Yes,A,92,No
+Zachary Chen,M,22,240,Physics,2,2,No,B,89,Yes
