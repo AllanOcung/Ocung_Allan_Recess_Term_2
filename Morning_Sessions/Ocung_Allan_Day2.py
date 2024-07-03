@@ -1,4 +1,16 @@
+# Example: if...elif...else
 
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+
+
+  print()
 
 # EXERCISE 1: if... elif statements
 
@@ -16,6 +28,7 @@ elif 18 <= age < 60:
 else:
     print("The price of the movie ticket is: Shs5000")
 
+print()
 
 # LOOPS(for, while)
 
@@ -32,12 +45,15 @@ cars = [
 for x in cars:
     print(x)
 
+print()
+
 x = 1
 
 while x <= 10:
     print(x)
     x += 1
-  
+
+print()
 # EXERCISE 2
 
 # 1. Create a list of your favourite colors using a for loop
@@ -50,6 +66,7 @@ for color in color_names:
     favourite_colors.append(color)
     print(color)
 
+print()
 # 2. Create a reverse of the input 12345 to be 54321 using while loop
 
 number = 12345
