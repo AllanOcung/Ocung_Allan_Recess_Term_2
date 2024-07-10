@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife Species</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-5 text-center">List of Wildlife Species</h1>
+        <table class="table table-hover mt-3">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Scientific Name</th>
+                    <th>Habitat</th>
+                    <th>Population</th>
+                    <th>Diet</th>
+                    <th>Conservation Status</th>
+                    <th>Lifespan</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for species in wildlife_species %}
+                <tr>
+                    <td>{{ species.name }}</td>
+                    <td>{{ species.scientific_name }}</td>
+                    <td>{{ species.habitat }}</td>
+                    <td>{{ species.population }}</td>
+                    <td>{{ species.diet }}</td>
+                    <td>{{ species.conservation_status }}</td>
+                    <td>{{ species.lifespan }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="{{ url_for('add') }}" class="btn btn-primary">Add New Species</a>
+    </div>
+</body>
+</html>

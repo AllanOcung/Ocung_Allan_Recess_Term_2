@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Wildlife Species</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Add New Wildlife Species</h1>
+        <form method="POST" action="{{ url_for('add') }}">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="scientific_name">Scientific Name</label>
+                <input type="text" class="form-control" id="scientific_name" name="scientific_name" required>
+            </div>
+            <div class="form-group">
+                <label for="habitat">Habitat</label>
+                <input type="text" class="form-control" id="habitat" name="habitat" required>
+            </div>
+            <div class="form-group">
+                <label for="population">Population</label>
+                <input type="number" class="form-control" id="population" name="population" required>
+            </div>
+            <div class="form-group">
+                <label for="diet">Diet</label>
+                <input type="text" class="form-control" id="diet" name="diet" required>
+            </div>
+            <div class="form-group">
+                <label for="conservation_status">Conservation Status</label>
+                <input type="text" class="form-control" id="conservation_status" name="conservation_status" required>
+            </div>
+            <div class="form-group">
+                <label for="lifespan">Lifespan</label>
+                <input type="text" class="form-control" id="lifespan" name="lifespan" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Species</button>
+        </form>
+        <a href="{{ url_for('home') }}" class="btn btn-secondary mt-3">Back to List</a>
+    </div>
+</body>
+</html>
